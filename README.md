@@ -70,7 +70,6 @@ goservice-systemd/
 ├── docs/
 │   └── screenshots/
 ├── go.mod
-├── go.sum
 ├── .gitignore
 └── README.md
 ```

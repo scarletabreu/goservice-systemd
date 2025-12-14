@@ -1,0 +1,17 @@
+[Unit]
+Description=Servicio TCP en Go
+After=network.target
+
+[Service]
+ExecStart=/opt/goservice/goservice
+Restart=always
+User=goservice
+Group=goservice
+Environment=SERVICE_PORT=9090
+MemoryMax=100M
+CPUQuota=30%
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
