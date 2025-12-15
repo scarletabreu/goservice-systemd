@@ -104,7 +104,7 @@ goservice-systemd/
 │   │       └── control
 │   └── infoapp-deb.deb                # Paquete binario final
 ├── docs/
-│   └── screenshots/                   # Evidencia de pruebas (UFW, htop, systemctl status)
+│   └── goservice-systemd.pdf          # Evidencia de pruebas
 ├── systemd/
 │   └── goservice.service              # Unidad de servicio systemd
 ├── go.mod
