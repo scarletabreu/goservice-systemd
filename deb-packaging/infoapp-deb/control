@@ -1,0 +1,7 @@
+Package: infoapp
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Scarlet Abreu
+Description: App que muestra ID, nombre y correo
